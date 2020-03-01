@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_list_pokemon"
+        android:enabled="true"
+        android:icon="@drawable/pokemon_panel_icon"
+        android:title="Pokemons"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/items_panel_icon"
+        android:title="Items"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_nearby"
+        android:enabled="true"
+        android:icon="@drawable/berry_panel_icon"
+        android:title="Berries"
+        app:showAsAction="ifRoom" />
+
+</menu>
